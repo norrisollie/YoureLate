@@ -1,52 +1,36 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>You're Late</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>You're Late</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
 <body>
-
-<div class="pageContainer">
-
-<div class="pageFlexContainer">
-<div class="controlsContainer">
-
-<h1 class="filmTitle">You're Late</h1>
-<button class="playButton">Play</button>
-
-<!-- <h3 class="userInstructions">Best viewed in full screen mode<br> Not supported on tablet or mobile</h3> -->
-
-</div>
-</div>
-</div>
-
-<div class="filmContainer">
-<div class="switchContainer">
-
-<button class="switchButton"><span class="rotateArrow">⟲</span> Switch View</button>
-
-</div>
-
-<div class="filmOne">
-
-<video id="filmOne" src="http://vid1308.photobucket.com/albums/s607/Billy_Adam_Skinner/girl_1_zps8ud1zuxh.mp4" loop >
-
-</div>
-
-<div class="filmTwo">
-
-<video id="filmTwo" src="http://vid1308.photobucket.com/albums/s607/Billy_Adam_Skinner/boy_zpsugnp76od.mp4" muted loop>
-
-</div>
-
-</div>
-
-<script type="text/javascript" src="js.js"></script>
-
+    <div class="pageContainer">
+        <div class="pageFlexContainer">
+            <div class="controlsContainer">
+                <h1 class="filmTitle">You're Late.</h1>
+                <button class="playButton">▶ Play</button>
+                <!-- <h3 class="userInstructions">Best viewed in full screen mode<br> Not supported on tablet or mobile</h3> -->
+            </div>
+        </div>
+    </div>
+    <div class="filmContainer">
+        <div class="switchContainer">
+            <button class="switchButton"><span class="rotateArrow">⟲</span> Switch View</button>
+        </div>
+        <div class="filmOne">
+            <video id="filmOne" src="http://vid1308.photobucket.com/albums/s607/Billy_Adam_Skinner/girl_1_zps8ud1zuxh.mp4" loop>
+        </div>
+        <div class="filmTwo">
+            <video id="filmTwo" src="http://vid1308.photobucket.com/albums/s607/Billy_Adam_Skinner/boy_zpsugnp76od.mp4" muted loop>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>

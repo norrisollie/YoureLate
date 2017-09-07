@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* CSS Document for POV film */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(-45deg, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(-45deg, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFF;
+    font-family: "GRAPHIK";
+    font-weight: 600;
+    overflow: hidden;
+}
+
+button {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    outline: none;
+    background-color: #FFF;
+    border: none;
+    padding: 6px;
+    color: #2c2c2c;
+    font-
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* div elements */
+.pageContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.pageFlexContainer {
+    height: 500px;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.controlsContainer {
+    text-align: center;
+}
+
+.filmContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.switchContainer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 101;
+}
+
+.filmOne {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+    z-index: 100;
+}
+
+.filmTwo {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+    z-index: 99;
+}
+
+
+/* styling elements */
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1.filmTitle {
+    font-size: 72px;
+    color: #FFF;
+    
+}
+
+button.playButton {
+    transition: all 0.2s ease;
+    margin-top: 30px;
+    border: 5px solid #23cf5f;
+    background-color: transparent;
+    font-size: 24px;
+    color: #FFF;
+    
+}
+
+button.playButton:hover {
+    background-color: #23cf5f;
+    color: #FFF;
+    letter-spacing: 5px;
+}
+
+button.switchButton {
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+span.rotateArrow {
+    display: inline-block;
+}
+
+button.switchButton>span.rotateArrow {
+    transition: 1s ease-in-out;
+}
+
+button.switchButton:hover>span.rotateArrow {
+    transform: rotate(-360deg);
+    transition: 1s ease-in-out;
+}
