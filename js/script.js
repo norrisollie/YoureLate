@@ -157,6 +157,9 @@ $(document).ready(function() {
             const videoOneContainer = $(".video-one-element");
             const videoTwoContainer = $(".video-two-element");
 
+            // toggle between two videos
+            videoTwoContainer.fadeToggle(500);
+
             // if videoContainerOne has active class
             if (videoOneContainer.hasClass("active")) {
 

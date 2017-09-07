@@ -72,7 +72,6 @@ button {
 	position: absolute;
 	left: 0;
 	top: 0;
-	transition: all 0.5s ease;
 }
 
 .controls {
@@ -96,10 +95,6 @@ button {
 
 .video {
 	height: 100vh;
-}
-
-.active {
-	transition: all 0.5s ease;
 }
 
 .disabled {
